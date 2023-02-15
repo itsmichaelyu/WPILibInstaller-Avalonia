@@ -11,6 +11,7 @@
             <ProgressBar Margin="10,10,10,10" Height="30" Value="{Binding ProgressTotal}"/>
             <TextBlock Margin="10,0,10,0" Text="{Binding TextTotal}"/>
         </StackPanel>
+        <Separator Height="50" Background="Transparent"/>
         <Button DockPanel.Dock="Bottom" Margin="10,10,10,10" Height="50" Content="Cancel Installation" Command="{Binding CancelInstall}"/>
     </DockPanel>
 </UserControl>
